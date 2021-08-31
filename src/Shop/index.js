@@ -11,7 +11,7 @@ export default function Shop(props) {
     get(" https://covid-shop-mcs.herokuapp.com/")
       .then((data) => setItems(data))
       .catch((error) => setError(error));
-  }, []);
+  }, [get]);
 
   const list = items.map((item) => <Item key={item.id} info={item} />);
 
