@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 import Shop from "./Shop";
 import Main from "./Main";
-import style from "./style.css";
+import "./style.css";
 
 function App() {
   const [login, setLogin] = useState(false);
