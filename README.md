@@ -1,2 +1,2 @@
-# online-shop
+# react-project3
 Created with CodeSandbox
