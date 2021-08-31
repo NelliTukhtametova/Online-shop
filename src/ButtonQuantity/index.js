@@ -10,11 +10,11 @@ export default function ButtonGroup(props) {
         disabled={props.total === 0}
         onClick={props.onLessClick}
       >
-        <img src={minus} />
+        <img src={minus} alt=""/>
       </button>
       <h3 className="item-total">{props.total ? props.total : ""}</h3>
       <button className="item-more" onClick={props.onMoreClick}>
-        <img src={plus} />
+        <img src={plus} alt=""/>
       </button>
     </div>
   );
